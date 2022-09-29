@@ -1,0 +1,151 @@
+
+*{
+    margin: 0;
+    padding:0;
+}
+#collapsibleNavId{
+    left:0
+}
+.navbar{
+    background-image: linear-gradient(to right,#a517a5,#5f1782);
+}
+.navbar img{
+height: 50px;
+
+
+}
+#header{
+    position: sticky;
+    top: 0;
+z-index: 10;
+}
+/*---------navbar section-------------------------------------------------------------------------*/
+#banner{
+    background-image: linear-gradient(to right,#a517a5,#5f1782);
+    padding-top: 5%;
+
+
+}
+.promo-titel{
+    margin-top: 100px;
+}
+#banner a{
+    text-decoration: none;
+}
+.promo-text{
+    margin-top: 50px;
+}
+.promo-btn{
+    margin-top: 50px;
+}
+#img-play{
+    width: 50px;
+    height: 50px;
+
+}
+.bottom-img{
+    width: 100%;
+    padding: 0px;
+
+}
+/*---------banner section------------------------------------------------------------------------------------------*/
+.services-img{
+    width: 50px;
+    height: 50px;
+}
+.title{
+    margin-left: auto;
+    margin-right: auto;
+padding-top: 100px;
+ padding-bottom: 100px;
+
+   
+}
+.show-more{
+    width: 100px;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+color: white;
+    background-image: linear-gradient(to right,#a517a5,#5f1782);
+    margin: 20px 0px 20px;
+}
+/*---------services section------------------------------------------------------------------------------------------*/
+#about{background-color: #f8f9fa;}
+.about-left p {
+    margin-left: -25px;
+}
+.about-left ul li{
+    margin-top: 20px;
+}
+/*--------- testmonions section-------------------------------------------------------------------------------------*/
+
+
+.testimonisls{
+    border-left:#5f1782 solid
+}
+
+.testimonisls img{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+}
+.user-detils{
+    display: inline-block;
+}
+/*--------- contacts section-------------------------------------------------------------------------------------*/
+.contact-us{
+    background-color: #f8f9fa;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.contact-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+                         
+}
+.social-icon  img{
+    width: 40px;
+    height: 40px;
+    transition: 0.5s;
+
+}
+
+.social-icon  img:hover {
+
+    transform: translateY(-10px);
+
+}
+
+
+
+
+/*--------- footer section-------------------------------------------------------------------------------------*/
+.footer{
+    background-image: linear-gradient(to right,#a517a5,#5f1782);
+padding-bottom: 10px;
+}
+
+#logo-d{
+    height:30px;
+}
+.info i{
+ text-align: center;
+ font-size: 25px;
+ width: 40px;
+background-image:linear-gradient(to right,#a517a5,#5f1782); 
+padding: 10px;
+}
+.btn-sub{
+    margin-top: 10px;
+    background-image:linear-gradient(to right,#a517a5,#5f1782); 
+
+
+
+}
+.footer .row{
+    padding-bottom: 50px;
+    border-bottom: white solid ;
+}
